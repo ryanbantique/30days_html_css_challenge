@@ -1,0 +1,33 @@
+/* @import here */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  padding: 40px 0;
+}
+
+body {
+  background-color: rgb(15, 15, 15);
+}
+
+.container {
+  display: grid;
+  text-align: center;
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  grid-template-columns: 4fr 1fr 1fr;
+  gap: 1rem;
+  /* border: 1px solid red; */
+  padding: 20px;
+}
+
+.grid {
+  background-color: rgb(56, 56, 56);
+}

@@ -1,0 +1,85 @@
+/* @import here */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap");
+
+:root {
+  --Darkgrey: #111828;
+  --Cardcolor: #202938;
+  --Position-color: #808dd3;
+  --FontWhite: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all 0.2s ease-out;
+  font-family: Poppins;
+}
+
+html body {
+  background-color: var(--Darkgrey);
+}
+
+.content {
+  padding-top: 100px;
+  color: white;
+  text-align: center;
+}
+
+.content h1 {
+  margin-right: 990px;
+}
+
+.content p {
+  margin-right: 225px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.container .box {
+  background-color: var(--Cardcolor);
+  text-align: center;
+  border-radius: 14px;
+  height: 440px;
+  width: 400px;
+}
+
+.container .box img {
+  margin-top: 20px;
+  height: 260px;
+}
+
+.container .box h2 {
+  color: var(--FontWhite);
+  display: flex;
+  padding: 50px 40px 0 40px;
+}
+
+.container .box p {
+  color: var(--FontWhite);
+  text-align: center;
+}
+
+.container .box .box2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px 0 40px;
+}
+
+.box2 .wrap .icon {
+  font-size: 1.5rem;
+  color: #9ea2ad;
+  margin: 3px;
+}
+
+.container .box p {
+  color: var(--Position-color);
+}

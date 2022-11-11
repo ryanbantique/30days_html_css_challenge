@@ -1,0 +1,74 @@
+/* @IMPORT START HERE */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: all 0.2s ease-out;
+  border: none;
+  outline: 0;
+  font-family: Poppins;
+}
+
+body {
+  background-color: #c8e7df;
+}
+
+h1 {
+  text-align: center;
+  color: #2e937a;
+  font-weight: 600;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  padding: 30px 0 30px 0;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.container .card-wrap {
+  height: 600px;
+  width: 400px;
+  margin: 14px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.container .card-wrap h2 {
+  color: #2e937a;
+  margin-top: 20px;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.container .card-wrap p {
+  padding: 0 30px 0 30px;
+  color: rgb(97, 97, 97);
+  margin: 30px 0 30px 0;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.container .card-wrap img {
+  display: relative;
+  overflow: hidden;
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.container .card-wrap .btn span {
+  display: inline-block;
+  background-color: #2e937a;
+  border-radius: 50px;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.25px;
+}

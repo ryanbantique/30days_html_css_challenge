@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main {
+  min-height: 100vh;
+  border: 1px solid red;
+
+  .box:nth-child(1) {
+    background: red;
+    height: 200px;
+    width: 200px;
+  }
+  .box:nth-child(2) {
+    background: blue;
+    height: 200px;
+    width: 200px;
+  }
+  .box:nth-child(3) {
+    background: blue;
+    height: 200px;
+    width: 200px;
+  }
+}

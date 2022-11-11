@@ -1,0 +1,60 @@
+/* @import here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body h1{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.style-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.style-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.style-table tbody tr td{
+    padding: 10px;
+    text-align: center;
+}
+
+.style-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.style-table thead tr{
+    background-color: #009879;
+    color: #ffffff;
+}
+
+.style-table thead tr th{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+

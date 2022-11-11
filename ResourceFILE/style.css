@@ -1,0 +1,60 @@
+/* @import here */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  text-decoration: none;
+  transition: all 0.2s ease-out;
+}
+
+body {
+  height: 100vh;
+  background-color: #99c3ff;
+  background-image: radial-gradient(
+      at 47% 98%,
+      hsla(67, 68%, 69%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 62% 8%, hsla(328, 61%, 78%, 1) 0px, transparent 50%),
+    radial-gradient(at 64% 14%, hsla(151, 65%, 65%, 1) 0px, transparent 50%),
+    radial-gradient(at 6% 4%, hsla(105, 64%, 66%, 1) 0px, transparent 50%),
+    radial-gradient(at 56% 65%, hsla(229, 77%, 79%, 1) 0px, transparent 50%),
+    radial-gradient(at 29% 49%, hsla(41, 60%, 78%, 1) 0px, transparent 50%),
+    radial-gradient(at 55% 57%, hsla(146, 74%, 61%, 1) 0px, transparent 50%);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 30px;
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  text-shadow: 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container .wrap {
+  background-color: rgba(235, 235, 235, 0.486);
+  border-radius: 15px;
+  min-width: 400px;
+  padding: 30px;
+  margin: 10px;
+  box-shadow: 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.container .wrap ul li a {
+  color: black;
+}
+
+.container .wrap ul li a:hover {
+  font-weight: 700;
+  margin-left: 20px;
+}

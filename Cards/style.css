@@ -1,0 +1,174 @@
+/* @IMPORT START HERE */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap");
+/* @IMPORT END HERE */
+
+/* ROOT STYLE START HERE */
+/* :root {
+} */
+/* ROOT STYLE END HERE  */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: all 0.2s ease-out;
+  font-family: Poppins;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.container .card1 {
+  height: 500px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #ff999e;
+  background-image: radial-gradient(
+      at 66% 97%,
+      hsla(238, 87%, 60%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 13% 34%, hsla(191, 67%, 78%, 1) 0px, transparent 50%),
+    radial-gradient(at 2% 29%, hsla(148, 85%, 75%, 1) 0px, transparent 50%),
+    radial-gradient(at 11% 20%, hsla(317, 76%, 61%, 1) 0px, transparent 50%),
+    radial-gradient(at 75% 90%, hsla(308, 84%, 73%, 1) 0px, transparent 50%),
+    radial-gradient(at 39% 50%, hsla(87, 62%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 70% 18%, hsla(337, 66%, 62%, 1) 0px, transparent 50%);
+}
+
+.container .card1 .cardbox1 {
+  display: inline-block;
+  margin-top: 60px;
+  height: 300px;
+  width: 300px;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.61);
+}
+
+.container .card1 img {
+  height: 30%;
+  margin-top: 40px;
+  margin-bottom: -50px;
+}
+
+.container .card2 {
+  height: 500px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #ffa799;
+  background-image: radial-gradient(
+      at 25% 35%,
+      hsla(39, 69%, 62%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 28% 14%, hsla(359, 73%, 78%, 1) 0px, transparent 50%),
+    radial-gradient(at 41% 39%, hsla(240, 92%, 64%, 1) 0px, transparent 50%),
+    radial-gradient(at 93% 66%, hsla(60, 82%, 66%, 1) 0px, transparent 50%),
+    radial-gradient(at 47% 31%, hsla(103, 71%, 69%, 1) 0px, transparent 50%),
+    radial-gradient(at 14% 84%, hsla(206, 75%, 78%, 1) 0px, transparent 50%),
+    radial-gradient(at 33% 20%, hsla(315, 96%, 69%, 1) 0px, transparent 50%);
+}
+
+.container .card2 .cardbox2 {
+  display: inline-block;
+  margin-top: 60px;
+  height: 300px;
+  width: 300px;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.61);
+}
+
+.container .card2 img {
+  height: 30%;
+  margin-top: 40px;
+  margin-bottom: -50px;
+}
+
+.container .card3 {
+  height: 500px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #99ffa7;
+  background-image: radial-gradient(
+      at 58% 34%,
+      hsla(176, 84%, 65%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 18% 2%, hsla(66, 92%, 79%, 1) 0px, transparent 50%),
+    radial-gradient(at 23% 25%, hsla(26, 60%, 60%, 1) 0px, transparent 50%),
+    radial-gradient(at 66% 41%, hsla(12, 70%, 76%, 1) 0px, transparent 50%),
+    radial-gradient(at 16% 15%, hsla(42, 81%, 72%, 1) 0px, transparent 50%),
+    radial-gradient(at 29% 70%, hsla(350, 69%, 63%, 1) 0px, transparent 50%),
+    radial-gradient(at 7% 77%, hsla(299, 60%, 75%, 1) 0px, transparent 50%);
+}
+
+.container .card3 .cardbox3 {
+  display: inline-block;
+  margin-top: 60px;
+  width: 300px;
+  height: 300px;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.61);
+}
+
+.container .card3 img {
+  height: 30%;
+  margin-top: 40px;
+  margin-bottom: -50px;
+}
+
+body h1 {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.container .card3 .cardbox3 .btn {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: aliceblue;
+  border-radius: 50px;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2);
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.container .card2 .cardbox2 .btn {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: aliceblue;
+  border-radius: 50px;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2);
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.container .card1 .cardbox1 .btn {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: aliceblue;
+  border-radius: 50px;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2);
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}

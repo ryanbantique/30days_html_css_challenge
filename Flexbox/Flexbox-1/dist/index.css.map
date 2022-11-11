@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [
+    "../Flexbox/Flexbox-1/index.scss"
+  ],
+  "names": [],
+  "mappings": "AAAA,EACE,SAAA,CACA,QAAA,CACA,qBAAA,CACA,sBAAA,CAGF,MACE,gBAAA,CACA,oBAAA,CAEA,wBACE,cAAA,CACA,YAAA,CACA,WAAA",
+  "file": "index.css"
+}

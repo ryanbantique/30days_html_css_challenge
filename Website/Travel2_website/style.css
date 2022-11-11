@@ -1,0 +1,80 @@
+/* @IMPORT START HERE */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap");
+/* @IMPORT END HERE */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: 1px solid lime; */
+  padding: 1rem;
+  z-index: 1000;
+}
+.container .logo img {
+  display: flex;
+  height: 36px;
+  /* border: 1px solid red; */
+}
+
+.container .navbar ul {
+  display: flex;
+  list-style: none;
+  /* border: 1px solid red; */
+}
+
+.container .navbar ul li a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.container .back-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  max-width: 100%;
+  height: auto;
+}
+
+.content-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.content-text h2 {
+  font-size: 9rem;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.content-text h2:hover {
+  -webkit-text-stroke: 2px #fff;
+  color: transparent;
+}
+
+.content-text a {
+  display: inline-block;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 10px 40px;
+  color: #fff;
+}
